@@ -1,4 +1,8 @@
 eclipse.preferences.version=1
 encoding//WebContent/_Administrator/change_password_manager.jsp=UTF-8
 encoding//WebContent/_Administrator/change_password_staff.jsp=UTF-8
+encoding//WebContent/_Administrator/header.jsp=UTF-8
+encoding//WebContent/_Administrator/history_login.jsp=UTF-8
 encoding//WebContent/_Administrator/list_manager.jsp=UTF-8
+encoding//WebContent/_Administrator/main_menu.jsp=UTF-8
+encoding//WebContent/_Administrator/profile_menu.jsp=UTF-8
