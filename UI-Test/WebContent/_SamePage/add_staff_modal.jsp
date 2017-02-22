@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
   <!-- Staff modal -->         
-        <div id="modal_customer" class="modal fade"> 
+        <div id="modal_staff" class="modal fade"> 
             <div class="modal-dialog modal-lg"> 
                 <div class="modal-content"> 
                     <div class="modal-header"> 

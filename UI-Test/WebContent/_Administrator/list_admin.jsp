@@ -2,27 +2,29 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
-       <head> 
-       <%@ include file="script.jsp" %>     
-    </head>      
+     <head> 
+      <%@ include file="script.jsp" %>      
+    </head>     
     <body>
-    <%@ include file="../_Header_and_Footer/header.jsp" %>
+        <!-- Main navbar -->
+         <%@ include file="../_Header_and_Footer/header.jsp" %>
+        <!-- /main navbar -->
         <!-- Page header -->
-        <div class="page-header">
-            <div class="breadcrumb-line breadcrumb-line-wide">
-                <ul class="breadcrumb">
-                    <li>
-                        <a href="index.jsp"><i class="fa fa-users"></i> พนักงาน</a>
-                    </li>
-                    <li class="active">รายการพนักงาน</li>
-                </ul>
-            </div>
-            <div class="page-header-content">
-                <div class="page-title">
-                    <h4> <span class="text-semibold">พนักงาน</span> - รายการพนักงาน </h4>
-                </div>
-            </div>
-        </div>
+        <div class="page-header"> 
+            <div class="breadcrumb-line breadcrumb-line-wide"> 
+                <ul class="breadcrumb"> 
+                    <li> 
+                        <a href="index.jsp"><i class="fa fa-users"></i>&nbsp;แอดมิน</a> 
+                    </li>                     
+                    <li class="active">รายการผู้จัดการ</li>                     
+                </ul>                 
+            </div>             
+            <div class="page-header-content"> 
+                <div class="page-title"> 
+                    <h4> <span class="text-semibold">แอดมิน</span> - รายการแอดมิน</h4> 
+                </div>                 
+            </div>             
+        </div>         
         <!-- /page header -->
         <!-- Page container -->
         <div class="page-container">
@@ -37,12 +39,12 @@
                 <div class="content-wrapper"> 
                     <!-- Page length options -->                     
                     <div class="panel panel-flat"> 
-                         <div class="panel-heading"> 
-                            <h5 class="panel-title">รายการพนักงาน</h5> 
+                        <div class="panel-heading"> 
+                            <h5 class="panel-title">แอดมิน</h5> 
                             <div class="heading-elements">
-                                <button class="btn btn-default btn-sm pull-right" data-toggle="modal" data-target="#modal_staff" type="button">เพิ่มพนักงาน</button>
+                                <button class="btn btn-default btn-sm pull-right" data-toggle="modal" data-target="#modal_admin" type="button">เพิ่มแอดมิน</button>
                             </div>
-                        </div>                        
+                        </div>                         
                         <table class="table datatable-show-all text-center"> 
                             <thead> 
                                 <tr> 
@@ -51,31 +53,29 @@
                                     <th class="text-left">ชื่อ</th> 
                                     <th class="text-left">เบอร์</th> 
                                     <th class="text-left">E-mail</th> 
-                                    <th class="text-center">สถานะ</th> 
                                     <th class="text-center">Actions</th> 
                                 </tr>                                 
                             </thead>                             
                             <tbody> 
                                 <tr> 
                                     <td class="text-left">1</td> 
-                                    <td class="text-left">C112</td> 
-                                    <td class="text-left">ฤทธิไกร เวียงชัย</td>
-                                    <td class="text-left">0860244246</td> 
-                                    <td class="text-left">champs20@gmail.com</td>
-                                    <td class="text-left">ปกติ</td> 
+                                    <td class="text-left">M112</td> 
+                                    <td class="text-left">Champ</td> 
+                                    <td class="text-left">0811111111</td> 
+                                    <td class="text-left">a@a.com</td> 
                                     <td class="text-center"> 
                                         <ul class="icons-list"> 
                                             <li class="dropdown"> 
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-menu9"></i> </a> 
                                                 <ul class="dropdown-menu dropdown-menu-right"> 
                                                     <li> 
-                                                        <a href="staff_profile.jsp"><i class="fa fa-eye"></i> ดูโปรไฟล์</a> 
+                                                        <a href="manager_profile.jsp"><i class="fa fa-eye"></i> ดูโปรไฟล์</a> 
+                                                    </li>
+                                                    <li> 
+                                                        <a href="edit_manager_profile.jsp"><i class="fa fa-edit"></i> แก้ไข</a> 
                                                     </li>                                                     
                                                     <li> 
-                                                        <a href="edit_staff_profile.jsp"><i class="fa fa-edit"></i> แก้ไข</a> 
-                                                    </li>                                                     
-                                                    <li> 
-                                                        <a href="change_password_staff.jsp"><i class="fa fa-edit"></i> เปลี่ยนรหัสผ่าน</a> 
+                                                        <a href="change_password_manager.jsp"><i class="fa fa-edit"></i> เปลี่ยนรหัสผ่าน</a> 
                                                     </li>                                                     
                                                 </ul>                                                 
                                             </li>                                             
@@ -84,24 +84,23 @@
                                 </tr>                                 
                                 <tr> 
                                     <td class="text-left">2</td> 
-                                    <td class="text-left">C113</td> 
-                                    <td class="text-left">นาย ฮาชิระ สุพงค์</td>
+                                    <td class="text-left">M113</td> 
+                                    <td class="text-left">นาย นรงค์ จันตะมา</td> 
                                     <td class="text-left">0811111111</td> 
                                     <td class="text-left">c@c.com</td> 
-                                    <td class="text-left">ปกติ</td> 
                                     <td class="text-center"> 
                                         <ul class="icons-list"> 
                                             <li class="dropdown"> 
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-menu9"></i> </a> 
                                                 <ul class="dropdown-menu dropdown-menu-right"> 
                                                     <li> 
-                                                        <a href="#"><i class="fa fa-eye"></i> ดูโปรไฟล์</a> 
+                                                        <a href="manager_profile.jsp"><i class="fa fa-eye"></i> ดูโปรไฟล์</a> 
+                                                    </li>
+                                                    <li> 
+                                                        <a href="edit_manager_profile.jsp"><i class="fa fa-edit"></i> แก้ไข</a> 
                                                     </li>                                                     
                                                     <li> 
-                                                        <a href="#"><i class="fa fa-edit"></i> แก้ไข</a> 
-                                                    </li>                                                     
-                                                    <li> 
-                                                        <a href="change_password_staff.jsp"><i class="fa fa-edit"></i> เปลี่ยนรหัสผ่าน</a> 
+                                                        <a href="change_password_manager.jsp"><i class="fa fa-edit"></i> เปลี่ยนรหัสผ่าน</a> 
                                                     </li>                                                     
                                                 </ul>                                                 
                                             </li>                                             
@@ -116,9 +115,11 @@
                 <!-- /main content -->
             </div>
             <!-- /page content -->
-              <%@ include file="../_Header_and_Footer/footer.jsp" %> 
+            <!-- Footer -->
+            <%@ include file="../_Header_and_Footer/footer.jsp" %> 
+            <!-- /footer -->
         </div>
         <!-- /page container -->
     </body>
-    <%@ include file="../_SamePage/add_staff_modal.jsp" %> 
+   <%@ include file="add_admin_modal.jsp" %> 
 </html>

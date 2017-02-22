@@ -124,5 +124,5 @@
         </div>         
         <!-- /page container --> 
     </body>     
-    <%@ include file="add_staff_modal.jsp" %> 
+    <%@ include file="../_SamePage/add_staff_modal.jsp" %> 
 </html>

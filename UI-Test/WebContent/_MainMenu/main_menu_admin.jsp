@@ -29,9 +29,17 @@
                                     </li>                                     
                                     <li class="active"> 
                                         <a href="index.jsp"><i class="icon-home4"></i> <span>แผงควบคุม</span></a> 
-                                    </li>                                     
+                                    </li>  
                                     <li> 
-                                        <a href="#"><i class="fa fa-users"></i> <span>ดูแลผู้จัดการ</span></a> 
+                                        <a href="#"><i class="fa fa-users"></i> <span>แอดมิน</span></a> 
+                                        <ul> 
+                                            <li> 
+                                                <a href="list_admin.jsp">รายการแอดมิน</a> 
+                                            </li>                                             
+                                        </ul>                                         
+                                    </li>                                         
+                                    <li> 
+                                        <a href="#"><i class="fa fa-users"></i> <span>ผู้จัดการ</span></a> 
                                         <ul> 
                                             <li> 
                                                 <a href="list_manager.jsp">รายการผู้จัดการ</a> 
@@ -39,7 +47,7 @@
                                         </ul>                                         
                                     </li>                                     
                                     <li> 
-                                        <a href="#"><i class="fa fa-users"></i><span>ดูแลพนักงาน</span></a> 
+                                        <a href="#"><i class="fa fa-users"></i><span>พนักงาน</span></a> 
                                         <ul> 
                                             <li> 
                                                 <a href="list_staff.jsp">รายการพนักงาน</a> 

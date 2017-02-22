@@ -105,10 +105,10 @@
                                                     <div class="col-lg-9">
                                                         <div class="row">
                                                             <div class="col-md-6">
-                                                                <p><input type="text" class="form-control" placeholder="เริ่ม"></p>
+                                                                <p><input type="text" class="form-control" placeholder="เริ่ม" value="22/01/2560"></p>
                                                             </div>
                                                             <div class="col-md-6">
-                                                                <p><input type="text" class="form-control" placeholder="สิ้นสุด"></p>
+                                                                <p><input type="text" class="form-control" placeholder="สิ้นสุด" value="25/01/2560"></p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -116,7 +116,7 @@
                                                 <div class="form-group">
                                                     <label class="col-lg-3 control-label text-right">หมายเหตุ:</label>
                                                     <div class="col-lg-9">
-                                                        <textarea rows="5" cols="5" class="form-control" placeholder="พิมพ์ข้อความที่นี่ "></textarea>
+                                                        <textarea rows="5" cols="5" class="form-control" placeholder="พิมพ์ข้อความที่นี่ ">ไม่มี</textarea>
                                                     </div>
                                                 </div>
                                         </div>
@@ -127,7 +127,7 @@
                                                     <div class="col-lg-9">
                                                         <div class="row">
                                                             <div class="col-md-12">
-                                                                <p><input type="text" class="form-control" placeholder="ชื่อ-นามสกุล"></p>
+                                                                <p><input type="text" class="form-control" placeholder="ชื่อ-นามสกุล" value="นาย ทองดี  ฟันขาว"></p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -137,7 +137,7 @@
                                                     <div class="col-lg-9">
                                                         <div class="row">
                                                             <div class="col-md-12">
-                                                                <p><input type="text" class="form-control"  placeholder="รถใช้งาน"></p>
+                                                                <p><input type="text" class="form-control"  placeholder="รถใช้งาน" value="Lambroghini"></p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -147,10 +147,10 @@
                                                     <div class="col-lg-9">
                                                         <div class="row">
                                                             <div class="col-md-6">
-                                                                <p><input type="text" class="form-control" placeholder="เริ่ม"></p>
+                                                                <p><input type="text" class="form-control" placeholder="เริ่ม" value="2221"></p>
                                                             </div>
                                                             <div class="col-md-6">
-                                                                <p><input type="text" class="form-control" placeholder="สิ้นสุด"></p>
+                                                                <p><input type="text" class="form-control" placeholder="สิ้นสุด" value="2285"></p>
                                                             </div>
                                                         </div>
                                                     </div>

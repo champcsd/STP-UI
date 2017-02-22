@@ -84,6 +84,9 @@
                                                         <a href="#" data-toggle="modal" data-target="#modal_updateOder"><i class="fa fa-refresh"></i> อัปเดทสถานะส่งของ</a>
                                                     </li>
                                                     <li class="divider"></li>
+                                                     <li>
+                                                        <a href="edit_shipment.jsp" id="sweet_warning"><i class="fa fa-trash"></i> แก้ไขรายการ</a>
+                                                    </li>
                                                     <li>
                                                         <a href="#" id="sweet_warning"><i class="fa fa-trash"></i> ยกเลิกรายการ</a>
                                                     </li>
