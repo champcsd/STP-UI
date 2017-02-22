@@ -85,7 +85,7 @@
                                                     </li>
                                                     <li class="divider"></li>
                                                      <li>
-                                                        <a href="edit_shipment.jsp" id="sweet_warning"><i class="fa fa-trash"></i> แก้ไขรายการ</a>
+                                                        <a href="edit_shipment.jsp" id="sweet_warning"><i class="fa fa-pencil"></i> แก้ไขรายการ</a>
                                                     </li>
                                                     <li>
                                                         <a href="#" id="sweet_warning"><i class="fa fa-trash"></i> ยกเลิกรายการ</a>
