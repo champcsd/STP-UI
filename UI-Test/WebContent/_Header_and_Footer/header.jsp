@@ -29,7 +29,7 @@
 					<li><a href="../_Profile/my_profile.jsp"><i class="icon-user-plus"></i>
 							โปรไฟล์ของฉัน</a></li>
 					<li class="divider"></li>
-					<li><a href="../_SamePage/login.jsp"><i class="icon-switch2"></i>
+					<li><a href="../login.jsp"><i class="icon-switch2"></i>
 							ออกจากระบบ</a></li>
 				</ul></li>
 		</ul>
