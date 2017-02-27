@@ -3,11 +3,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
 <html lang="en"> 
     <head> 
-  <%@ include file="script.jsp" %>         
+       <%@ include file="script.jsp" %>  
     </head>     
     <body> 
         <!-- Main navbar -->
-       <%@ include file="../_Header_and_Footer/header.jsp" %>             
+        <%@ include file="../_Header_and_Footer/header.jsp" %>                  
         <!-- /main navbar -->         
         <!-- Page header -->         
         <div class="page-header"> 
@@ -16,12 +16,12 @@
                     <li> 
                         <a href="index.jsp"><i class="fa fa-money"></i>&nbsp;ลูกหนี้</a> 
                     </li>                     
-                    <li class="active">รายการลูกหนี้</li>                     
+                    <li class="active">รายการชำระหนี้</li>                     
                 </ul>                 
             </div>             
             <div class="page-header-content"> 
                 <div class="page-title"> 
-                    <h4> <span class="text-semibold">ลูกหนี้</span> - รายการลูกหนี้</h4> 
+                    <h4> <span class="text-semibold">ลูกหนี้</span> - รายการชำระหนี้ </h4> 
                 </div>                 
             </div>             
         </div>         
@@ -31,8 +31,8 @@
             <!-- Page content -->             
             <div class="page-content"> 
                 <!-- Main sidebar -->                 
-                <div class="sidebar sidebar-main sidebar-default">
-                          
+                <div class="sidebar sidebar-main sidebar-default">    
+                              
 </div>                 
                 <!-- /main sidebar -->                 
                 <!-- Main content -->                 
@@ -40,39 +40,50 @@
                     <!-- Page length options -->                     
                     <div class="panel panel-flat"> 
                         <div class="panel-heading"> 
-                            <h5 class="panel-title">รายการลูกหนี้</h5> 
+                            <h5 class="panel-title">รายการชำระหนี้</h5> 
                             <div class="heading-elements"> 
-                                <button class="btn btn-default btn-sm pull-right" type="button">ปริ้นรายการลูกหนี้</button>                                 
+                                <a href="payment.jsp"> 
+                                    <button type="button" class="btn btn-default pull-right">ชำระหนี้</button>                                     
+                                </a>                                 
                             </div>                             
                         </div>                         
                         <table class="table datatable-show-all text-center"> 
                             <thead> 
                                 <tr> 
                                     <th class="text-left">#</th> 
-                                    <th class="text-left sorting">รหัส</th> 
-                                    <th class="text-left">ชื่อ</th> 
-                                    <th class="text-left">รายการที่สั่งไปทั้งหมด</th> 
-                                    <th class="text-left">ราคารวมทั้งหมด</th> 
+                                    <th class="text-left sorting">รหัสชำระหนี้</th> 
+                                    <th>วันที่ชำระหนี้</th> 
+                                    <th>ชื่อลูกหนี้</th> 
+                                    <th>รายการที่จ่ายไป</th> 
+                                    <th>ส่วนลดทั้งหมด</th> 
+                                    <th>มูลค่ารวม</th> 
+                                    <th>สถานะ</th> 
                                     <th class="text-center">Actions</th> 
                                 </tr>                                 
                             </thead>                             
-                            <tbody> 
+                            <tbody class="text-left"> 
                                 <tr> 
-                                    <td class="text-left">1</td> 
-                                    <td class="text-left">C112</td> 
-                                    <td class="text-left">บริษัท ชุมพลอิเล็กทรอนิค</td> 
-                                    <td class="text-left">10</td> 
-                                    <td class="text-left">100000.00</td> 
+                                    <td>1</td> 
+                                    <td>P1234</td> 
+                                    <td>12/02/2559</td> 
+                                    <td>Natthamon</td> 
+                                    <td>2</td> 
+                                    <td>1100.00 </td> 
+                                    <td>104900.00 </td> 
+                                    <td>ชำระแล้ว</td> 
                                     <td class="text-center"> 
                                         <ul class="icons-list"> 
                                             <li class="dropdown"> 
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-menu9"></i> </a> 
                                                 <ul class="dropdown-menu dropdown-menu-right"> 
                                                     <li> 
-                                                        <a href="debtor.jsp"><i class="fa fa-eye"></i> ดูรายการที่สั่ง</a> 
+                                                        <a href="done_payment.jsp"><i class="fa fa-eye"></i> ดูรายการ</a> 
                                                     </li>                                                     
                                                     <li> 
-                                                        <a href="#"><i class="fa fa-edit"></i> ปริ้นรายงาน</a> 
+                                                        <a href="#" data-toggle="modal" data-target="#modal_updatePayment"><i class="fa fa-refresh"></i> อัปเดทสถานะ</a> 
+                                                    </li>                                                     
+                                                    <li> 
+                                                        <a href="#"><i class="fa fa-print"></i> พิมพ์ใบเสร็จ</a> 
                                                     </li>                                                     
                                                 </ul>                                                 
                                             </li>                                             
@@ -82,15 +93,15 @@
                             </tbody>                             
                         </table>                         
                     </div>                     
-                    <!-- /page length options -->                     
+                    <!-- /page length options -->    
                 </div>                 
                 <!-- /main content -->                 
             </div>             
             <!-- /page content -->             
             <!-- Footer -->    
-              <%@ include file="../_Header_and_Footer/footer.jsp" %>                      
+             <%@ include file="../_Header_and_Footer/footer.jsp" %>                       
             <!-- /footer -->             
-        </div>         
-        <!-- /page container -->         
-    </body>     
+        </div>     
+    </body>    
+    <%@ include file="update_payment_modal.jsp" %>  
 </html>

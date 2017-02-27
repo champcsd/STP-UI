@@ -21,7 +21,7 @@
             </div>
             <div class="page-header-content">
                 <div class="page-title">
-                    <h4> <span class="text-semibold">หน้าหลัก</span> - แผงควบคุม <small>สวัสดี, พนักงาน!</small></h4>
+                    <h4> <span class="text-semibold">หน้าหลัก</span> - แผงควบคุม <small>สวัสดี, ผู้จัดการ!</small></h4>
                 </div>
             </div>
         </div>

@@ -35,10 +35,10 @@
                                         <a href="#"><i class="fa fa-file-text-o"></i> <span>ใบรับรายการ</span></a> 
                                         <ul> 
                                             <li> 
-                                                <a href="../_SamePage/create_order.jsp">สร้างใบรับรายการ</a> 
+                                                <a href="create_order.jsp">สร้างใบรับรายการ</a> 
                                             </li>                                             
                                             <li> 
-                                                <a href="../_SamePage/list_order.jsp">ใบรับรายการทั้งหมด</a> 
+                                                <a href="list_order.jsp">ใบรับรายการทั้งหมด</a> 
                                             </li>
                                         </ul>                                         
                                     </li>
@@ -46,10 +46,10 @@
                                         <a href="#"><i class="fa fa-file-text-o"></i> <span>ใบสั่งปฏิบัติงาน</span></a> 
                                         <ul> 
                                             <li> 
-                                                <a href="../_SamePage/create_shipment.jsp">สร้างใบสั่งปฏิบัติงาน</a> 
+                                                <a href="create_shipment.jsp">สร้างใบสั่งปฏิบัติงาน</a> 
                                             </li>                                             
                                             <li> 
-                                                <a href="../_SamePage/list_shipment.jsp">ใบสั่งปฏิบัติงานทั้งหมด</a> 
+                                                <a href="list_shipment.jsp">ใบสั่งปฏิบัติงานทั้งหมด</a> 
                                             </li>
                                         </ul>                                         
                                     </li>
@@ -57,13 +57,13 @@
                                         <a href="#"><i class="fa fa-money"></i><span>ลูกหนี้</span></a> 
                                         <ul>
                                             <li> 
-                                                <a href="../_SamePage/list_debtor.jsp">ลูกหนี้ทั้งหมด</a> 
+                                                <a href="list_debtor.jsp">ลูกหนี้ทั้งหมด</a> 
                                             </li>                                             
                                             <li> 
-                                                <a href="../_SamePage/list_payment.jsp">พิมพ์ใบเสร็จ</a> 
+                                                <a href="list_payment.jsp">พิมพ์ใบเสร็จ</a> 
                                             </li>                                             
                                             <li> 
-                                                <a href="../_SamePage/payment.jsp">ชำระเงิน</a> 
+                                                <a href="payment.jsp">ชำระเงิน</a> 
                                             </li>                                             
                                         </ul>
                                     </li>  
@@ -71,7 +71,7 @@
                                         <a href="#"><i class="fa fa-user"></i> <span>ผู้ว่าจ้าง</span></a> 
                                         <ul> 
                                             <li> 
-                                                <a href="../_SamePage/list_customer.jsp">รายการผู้ว่าจ้าง</a> 
+                                                <a href="list_customer.jsp">รายการผู้ว่าจ้าง</a> 
                                             </li>                                             
                                         </ul>                                         
                                     </li>                                     
@@ -111,7 +111,7 @@
                                         <a href="#"><i class="fa fa-warning"></i> <span>ประวัติการเข้าใช้งาน</span></a> 
                                         <ul> 
                                             <li> 
-                                                <a href="../_SamePage/history_login.jsp">รายการประวัติการเข้าใช้งาน</a> 
+                                                <a href="history_login.jsp">รายการประวัติการเข้าใช้งาน</a> 
                                             </li>                                             
                                         </ul>                                         
                                     </li>                                     
